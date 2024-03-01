@@ -1,0 +1,137 @@
+
+.title-font {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.paragraph-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-color {
+    color: rgb(92, 73, 63);
+}
+
+.additional-color {
+    color: rgb(143, 122, 104);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    width: 40rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #2f2d2d;
+    border-radius: 4px;
+    background-color: rgba(218, 224, 236, 0.85);
+    color: rgb(92, 73, 63);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.search-input:focus {
+    border-color: #c9c7c7;
+    outline: none;
+    color: #333;
+    background-color: rgba(182, 186, 195, 0.8);
+}
+
+.search-button {
+    margin-left: 1rem;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(22, 71, 88);
+    color: rgba(215, 215, 215, 0.8);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.search-button:hover {
+    background-color: rgb(20, 39, 45);
+}
+
+.product-card-container {
+    background-color: rgb(22, 71, 88);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.product-card-image {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 7.5px;
+    background-color: #5c3c14;
+    border-radius: 15px;
+}
+
+.product-card-image img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card-details {
+    flex: 1;
+}
+
+.product-card-title {
+    color:  rgba(218, 224, 236, 0.85);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    color: rgba(201, 159, 137, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.product-card-button {
+    background-color: #895515;
+    color:  rgba(218, 224, 236, 0.85);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card-button:hover {
+    background-color: #D2B48C;
+}
+
+body {
+    background-color: rgba(232, 222, 201, 0.871);
+}
+
+
+.red-ribbon {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    background-color: rgb(22, 71, 88);
+    clip-path: polygon(0 0, 100% 0, calc(100% - 150px) 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px; 
+}
+
+.ribbon-content {
+    color: #c58833; 
+    font-size: 18px; 
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Libre Baskerville', serif;
+}
